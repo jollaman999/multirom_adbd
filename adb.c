@@ -24,6 +24,8 @@
 #include <string.h>
 #include <time.h>
 #include <sys/time.h>
+#include <sys/prctl.h>
+#include <sys/capability.h>
 
 #include "sysdeps.h"
 #include "adb.h"
